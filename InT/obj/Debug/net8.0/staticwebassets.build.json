@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "H2EZGEaSdVaW8LygewzsXE8hMRkVfCkOjDei81DbIZw=",
+  "Source": "InT.API",
+  "BasePath": "_content/InT.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "InT.API\\wwwroot",
+      "Source": "InT.API",
+      "ContentRoot": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\wwwroot\\",
+      "BasePath": "_content/InT.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

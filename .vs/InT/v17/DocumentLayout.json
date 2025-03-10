@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3C0F5C-3444-40B8-901C-A0FD57531ED4}|InT\\InT.API.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3C0F5C-3444-40B8-901C-A0FD57531ED4}|InT\\InT.API.csproj|solutionrelative:int\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A70F782A-6E42-4A44-854A-0EF0B0C27090}|InT.Repository\\InT.Repository.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.repository\\data\\context\\fielsekkacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A70F782A-6E42-4A44-854A-0EF0B0C27090}|InT.Repository\\InT.Repository.csproj|solutionrelative:int.repository\\data\\context\\fielsekkacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE818807-1DF9-45C2-A2BC-2573E77FB81D}|InT.Secrvice\\InT.Secrvice.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.secrvice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE818807-1DF9-45C2-A2BC-2573E77FB81D}|InT.Secrvice\\InT.Secrvice.csproj|solutionrelative:int.secrvice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310032054_Added identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InT.Repository\\Migrations\\20250310032054_Added identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3C0F5C-3444-40B8-901C-A0FD57531ED4}|InT\\InT.API.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3C0F5C-3444-40B8-901C-A0FD57531ED4}|InT\\InT.API.csproj|solutionrelative:int\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310031958_Added identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InT.Repository\\Migrations\\20250310031958_Added identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.core\\services.contrct\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|solutionrelative:int.core\\services.contrct\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE818807-1DF9-45C2-A2BC-2573E77FB81D}|InT.Secrvice\\InT.Secrvice.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.secrvice\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE818807-1DF9-45C2-A2BC-2573E77FB81D}|InT.Secrvice\\InT.Secrvice.csproj|solutionrelative:int.secrvice\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A70F782A-6E42-4A44-854A-0EF0B0C27090}|InT.Repository\\InT.Repository.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A70F782A-6E42-4A44-854A-0EF0B0C27090}|InT.Repository\\InT.Repository.csproj|solutionrelative:int.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|solutionrelative:int.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3C0F5C-3444-40B8-901C-A0FD57531ED4}|InT\\InT.API.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3C0F5C-3444-40B8-901C-A0FD57531ED4}|InT\\InT.API.csproj|solutionrelative:int\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.core\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|solutionrelative:int.core\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310015907_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InT.Repository\\Migrations\\20250310015907_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|c:\\users\\micheal\\onedrive\\desktop\\int\\int\\int.core\\mapping\\cars\\carprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AEA3AF-5ACB-4579-9015-110C8B679DB9}|Int.Core\\Int.Core.csproj|solutionrelative:int.core\\mapping\\cars\\carprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 218,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250310032054_Added identitytables.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310032054_Added identitytables.cs",
+              "RelativeDocumentMoniker": "InT.Repository\\Migrations\\20250310032054_Added identitytables.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310032054_Added identitytables.cs",
+              "RelativeToolTip": "InT.Repository\\Migrations\\20250310032054_Added identitytables.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:20:55.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\Program.cs",
+              "RelativeDocumentMoniker": "InT\\Program.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\Program.cs",
+              "RelativeToolTip": "InT\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:20:20.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250310031958_Added identitytables.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310031958_Added identitytables.cs",
+              "RelativeDocumentMoniker": "InT.Repository\\Migrations\\20250310031958_Added identitytables.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310031958_Added identitytables.cs",
+              "RelativeToolTip": "InT.Repository\\Migrations\\20250310031958_Added identitytables.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:19:58.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Services.Contrct\\ICarService.cs",
+              "RelativeDocumentMoniker": "Int.Core\\Services.Contrct\\ICarService.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Services.Contrct\\ICarService.cs",
+              "RelativeToolTip": "Int.Core\\Services.Contrct\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:18:40.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Secrvice\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "InT.Secrvice\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Secrvice\\Services\\CarService.cs",
+              "RelativeToolTip": "InT.Secrvice\\Services\\CarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:18:09.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "InT.Repository\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "InT.Repository\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:16:58.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Int.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Entities\\User.cs",
+              "RelativeToolTip": "Int.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:07:16.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "InT\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\Controllers\\CarController.cs",
+              "RelativeToolTip": "InT\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:10:46.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250310015907_init.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310015907_init.cs",
+              "RelativeDocumentMoniker": "InT.Repository\\Migrations\\20250310015907_init.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Migrations\\20250310015907_init.cs",
+              "RelativeToolTip": "InT.Repository\\Migrations\\20250310015907_init.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:59:07.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarProfile.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Mapping\\Cars\\CarProfile.cs",
+              "RelativeDocumentMoniker": "Int.Core\\Mapping\\Cars\\CarProfile.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Mapping\\Cars\\CarProfile.cs",
+              "RelativeToolTip": "Int.Core\\Mapping\\Cars\\CarProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:53:08.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FiElSekkaContext.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Data\\Context\\FiElSekkaContext.cs",
+              "RelativeDocumentMoniker": "InT.Repository\\Data\\Context\\FiElSekkaContext.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Repository\\Data\\Context\\FiElSekkaContext.cs",
+              "RelativeToolTip": "InT.Repository\\Data\\Context\\FiElSekkaContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:50:00.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "InT\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "InT\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:47:52.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Int.Core\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\Int.Core\\Entities\\Admin.cs",
+              "RelativeToolTip": "Int.Core\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:47:22.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 182,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Secrvice\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "InT.Secrvice\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\MICHEAL\\OneDrive\\Desktop\\InT\\InT\\InT.Secrvice\\Services\\AuthService.cs",
+              "RelativeToolTip": "InT.Secrvice\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:49:00.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
