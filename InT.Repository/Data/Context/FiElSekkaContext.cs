@@ -7,9 +7,6 @@ namespace Int.Core.Entities;
 
 public partial class FiElSekkaContext : IdentityDbContext<User>
 {
-    public FiElSekkaContext()
-    {
-    }
 
     public FiElSekkaContext(DbContextOptions<FiElSekkaContext> options)
         : base(options)

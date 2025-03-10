@@ -24,6 +24,7 @@ namespace InT
 
             // Add services to the container.
 
+            // Ensure configuration is applied
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

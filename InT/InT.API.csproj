@@ -20,8 +20,4 @@
     <ProjectReference Include="..\InT.Secrvice\InT.Secrvice.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
 </Project>
