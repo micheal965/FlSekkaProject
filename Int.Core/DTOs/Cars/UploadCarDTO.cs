@@ -14,7 +14,7 @@ namespace Int.Core.DTOs.Cars
         public int? PlateNumber { get; set; }
         public int? ColorCode { get; set; }
         public int? BrandCode { get; set; }
-        public List<IFormFile> CarPhotos { get; set; } = new List<IFormFile>();
+        public List<IFormFile> CarPhotos { get; set; }
 
     }
 }

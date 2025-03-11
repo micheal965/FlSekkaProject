@@ -21,7 +21,7 @@ public partial class FiElSekkaContext : IdentityDbContext<User>
 
     //public virtual DbSet<Brand> Brands { get; set; }
 
-    //public virtual DbSet<Car> Cars { get; set; }
+    public virtual DbSet<Car> Cars { get; set; }
 
     //public virtual DbSet<CarPhoto> CarPhotos { get; set; }
 

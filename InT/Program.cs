@@ -58,6 +58,7 @@ namespace InT
             builder.Services.AddScoped<ICarRepository, CarRepository>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<ICloudinaryServices, CloudinaryServices>();
 
             builder.Services.AddAutoMapper(M => M.AddProfile(new CarProfile()));
             builder.Services.AddAutoMapper(M => M.AddProfile(new UserProfile()));

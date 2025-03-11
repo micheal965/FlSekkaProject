@@ -26,3 +26,4 @@ C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\Int.Core\bin\Debug\net8.0\Int.Core.dll
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\Int.Core\bin\Debug\net8.0\Int.Core.pdb
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\Int.Core\obj\Debug\net8.0\Int.Core.genruntimeconfig.cache
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\Int.Core\obj\Debug\net8.0\ref\Int.Core.dll
+C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\Int.Core\obj\Debug\net8.0\Int.Core.sourcelink.json

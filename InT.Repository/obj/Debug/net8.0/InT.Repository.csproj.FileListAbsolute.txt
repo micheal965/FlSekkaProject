@@ -32,3 +32,4 @@ C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Repository\obj\Debug\net8.0\refint
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Repository\obj\Debug\net8.0\InT.Repository.pdb
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Repository\obj\Debug\net8.0\InT.Repository.genruntimeconfig.cache
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Repository\obj\Debug\net8.0\ref\InT.Repository.dll
+C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Repository\obj\Debug\net8.0\InT.Repository.sourcelink.json

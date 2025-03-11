@@ -36,3 +36,4 @@ C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Secrvice\obj\Debug\net8.0\refint\I
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Secrvice\obj\Debug\net8.0\InT.Secrvice.pdb
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Secrvice\obj\Debug\net8.0\InT.Secrvice.genruntimeconfig.cache
 C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Secrvice\obj\Debug\net8.0\ref\InT.Secrvice.dll
+C:\Users\MICHEAL\OneDrive\Desktop\InT\InT\InT.Secrvice\obj\Debug\net8.0\InT.Secrvice.sourcelink.json

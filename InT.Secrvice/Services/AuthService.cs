@@ -15,12 +15,14 @@ namespace InT.Secrvice.Services
     public class AuthService : IAuthService
     {
         private readonly UserManager<User> _userManager;
+        private readonly SignInManager<User> _signInManager;
         private readonly IConfiguration _configuration;
         private readonly IMapper _mapper;
 
-        public AuthService(UserManager<User> userManager, IConfiguration configuration, IMapper mapper)
+        public AuthService(UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration, IMapper mapper)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
             _configuration = configuration;
             _mapper = mapper;
         }
@@ -59,6 +61,11 @@ namespace InT.Secrvice.Services
             if (!await _userManager.CheckPasswordAsync(user, loginDto.Password))
             {
                 throw new Exception("Invalid login attempt");
+            }
+            var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
+            if (!result.Succeeded)
+            {
+                throw new UnauthorizedAccessException();
             }
             //Should return jwt
             var userDto = _mapper.Map<UserDTO>(user);

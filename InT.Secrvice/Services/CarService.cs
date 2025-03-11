@@ -14,11 +14,13 @@ namespace InT.Secrvice.Services
     public class CarService : ICarService
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ICloudinaryServices _cloudinaryServices;
         private readonly IMapper _mapper;
 
-        public CarService(IUnitOfWork unitOfWork, IMapper mapper)
+        public CarService(IUnitOfWork unitOfWork, ICloudinaryServices cloudinaryServices, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _cloudinaryServices = cloudinaryServices;
             _mapper = mapper;
         }
         //public async Task<IEnumerable<CarDTO>> GetAllCarsAsync()
@@ -50,46 +52,45 @@ namespace InT.Secrvice.Services
 
         //}
 
-        //public async Task<CarDTO> UploadCarAsync(UploadCarDTO carDto)
-        //{
-        //    var car = _mapper.Map<Car>(carDto); // تحويل الـ DTO إلى Entity
+        public async Task<CarDTO> UploadCarAsync(UploadCarDTO carDto)
+        {
+            var car = new Car()
+            {
+                Description = carDto.Description,
+                Location = carDto.Location,
+                CPlateNumber = carDto.PlateNumber,
+                CCode = carDto.ColorCode,
+                BCode = carDto.BrandCode,
+            };
 
-        //    // إضافة السيارة إلى قاعدة البيانات
-        //    await _unitOfWork.Repository<Car>().AddAsync(car);
-        //    await _unitOfWork.CompleteAsync();
+            var CarRepo = _unitOfWork.Repository<Car>();
+            //upload data to cloudinary
+            if (carDto.CarPhotos != null && carDto.CarPhotos.Count > 0)
+            {
 
-        //    // حفظ الصور
-        //    if (carDto.CarPhotos != null && carDto.CarPhotos.Any())
-        //    {
-        //        var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
-        //        if (!Directory.Exists(uploadPath))
-        //        {
-        //            Directory.CreateDirectory(uploadPath);
-        //        }
+                var uploadResults = await _cloudinaryServices.UploadImagesAsync(carDto.CarPhotos);
+                var carImages = uploadResults.Select(result => new CarPhoto
+                {
+                    carId = car.Id,
+                    imageUrl = result.imageUrl,
+                    publicId = result.publicId,
+                }).ToList();
 
-        //        foreach (var photo in carDto.CarPhotos)
-        //        {
-        //            var fileName = $"{Guid.NewGuid()}_{photo.FileName}";
-        //            var filePath = Path.Combine(uploadPath, fileName);
-
-        //            using (var stream = new FileStream(filePath, FileMode.Create))
-        //            {
-        //                await photo.CopyToAsync(stream);
-        //            }
-
-        //            var carPhoto = new CarPhoto
-        //            {
-        //                CId = car.CId,  // ربط الصورة بالسيارة
-        //                PhotoUrl = $"uploads/{fileName}"
-        //            };
-
-        //            await _unitOfWork.Repository<CarPhoto>().AddAsync(carPhoto);
-        //        }
-
-        //        await _unitOfWork.CompleteAsync();
-        //    }
-
-        //    return _mapper.Map<CarDTO>(car);
-        //}
+                foreach (var carImage in carImages)
+                {
+                    car.CarPhotos.Add(carImage);
+                }
+            }
+            await CarRepo.AddAsync(car);
+            var result = await _unitOfWork.CompleteAsync();
+            if (result > 0)
+            {
+                return _mapper.Map<CarDTO>(car);
+            }
+            else
+            {
+                throw new Exception();
+            }
+        }
     }
 }

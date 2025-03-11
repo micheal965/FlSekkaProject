@@ -39,6 +39,10 @@ namespace InT.API.Controllers
                 var user = await _authService.LoginAsync(loginDto);
                 return Ok(user);
             }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(ex.Message);
+            }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);

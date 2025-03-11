@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Int.Core.Entities;
+﻿namespace Int.Core.Entities;
 
 public partial class Car
 {
-    public int CId { get; set; }
+    public int Id { get; set; }
 
     public string? Description { get; set; }
 
@@ -17,15 +14,16 @@ public partial class Car
 
     public int? BCode { get; set; }
 
-    public virtual AdminMnageCar? AdminMnageCar { get; set; }
 
-    public virtual Brand? BCodeNavigation { get; set; }
+    // public virtual AdminMnageCar? AdminMnageCar { get; set; }
 
-    public virtual Color? CCodeNavigation { get; set; }
+    //public virtual Brand? BCodeNavigation { get; set; }
+
+    //public virtual Color? CCodeNavigation { get; set; }
 
     public virtual ICollection<CarPhoto> CarPhotos { get; set; } = new List<CarPhoto>();
 
-    public virtual SearchCar? SearchCar { get; set; }
+    //public virtual SearchCar? SearchCar { get; set; }
 
-    public virtual ICollection<User> USsns { get; set; } = new List<User>();
+    //public virtual ICollection<User> USsns { get; set; } = new List<User>();
 }
